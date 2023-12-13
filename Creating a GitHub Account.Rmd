@@ -1,0 +1,62 @@
+---
+title: "Creating a GitHub Account"
+author: "Matthew Bell"
+date: "2023-12-07"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Course Summary
+
+**Matthew Bell**
+
+### Week 1 | Predictive Modeling & Processes
+
+The most fundamental lesson of the first week was learning to work with R Markdown files. With an R Markdown files you can generate a clean report of the code. 
+
+Moving on to theory, we also learned about the trade off between bias and variance, and how to use that relationship to evaluate models.
+
+### Week 2 | Data Exploration
+
+One method of exploring data is using summary statistics. Statistical summaries of the records can reveal missing data, outliers, and valuable business information, when analyzed thoroughly.
+
+A second method is to explore the data through visualization. Visualizing certain data makes it much more digestible. Distributions and relationships between data particularly benefit from this kind of exploration.
+
+### Week 3 | Linear Regression
+
+Linear regression is a widely used method of supervised learning. It can be used to predict a quantitative response based on numerical and categorical variables. The model attempts to derive a linear additive function based upon these variables. A function which can then be used to make predictions.
+
+The model is scored based upon minimizing the residuals. Various metrics such as RSE, R^2, and p-value can be used to evaluate the models performance. 
+
+### Week 4 | Classification
+
+If many qualitative variables exist, or the problem involves classifying observations, then linear regression may not be appropriate. Categorical variables with many levels may not make sense on a linear scale. Methods for predicting qualitative responses are known as classification methods.
+
+Logistic regression is one such classification method. It can be used to predict the likelihood that an observation may belong to a particular class. 
+
+### Week 5 | Generalized Linear Models
+
+Generalized linear models (GLM) can be used to relax some of the restrictive assumptions of linear regression. For example, normal linear regression assumes normal distributions for both responses and predictors. GLM can assume distributions from other exponential families.
+
+One such distribution is Poisson, which is used in Poisson regression to measure the probability that a certain number of events occur in a given time frame. Another, Gamma Regression, assumes that the distribution of the responses is skewed to the right.
+
+### Week 6 | Tree Based Models
+
+Decision trees are very powerful supervised learning methods that are applicable to both classification and regression problems. The algorithm works by discovering rules regarding predictors and building a tree structure that, if followed from the root node, will predict the correct response.
+
+Random forests improve upon the decision tree model by generating any number of trees based on bootstrapped data sets. The average of the predictions of all trees is given as the prediction for the random forest.
+
+### Week 7 | Unuspervised Methods
+
+Unsupervised learning methods do not use responses while building their models. The features of the observations are used to discover previously unknown subgroups, or clusters, within the dataset. 
+
+The unsupervised method we practiced in week 7 was K-means clustering. This method partitions the data into a K number of distinct, non-overlapping clusters. After the model is computed, observations are assigned to clusters based upon their distance from their distance to the clusters centroid.
+
+### Week 8 | Delivering Results
+
+RStudio offers powerful tools for delivering and communicating your results. It can knit together html files of the work, or render a slideshow presentation using Ioslides presentations.
+
+Git is a version control system that you can use to track changes to your code; across multiple versions. Github is a website that utilizes git to bring it to the world wide web. One huge benefit of GitHub is that it allows for multiple people to work on the same project, while checking for conflicts/errors before merging the new work.
